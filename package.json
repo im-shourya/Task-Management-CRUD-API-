@@ -1,0 +1,29 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "A complete CRUD API for task management using Node.js, Express, and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "crud",
+    "nodejs",
+    "express",
+    "mongodb",
+    "task-management"
+  ],
+  "author": "shourya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
